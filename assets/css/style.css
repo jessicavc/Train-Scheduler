@@ -1,0 +1,28 @@
+
+
+* {
+    font-family: 'Chelsea Market', cursive;
+}
+
+body {
+    background-image: url("assets/images/underground.jpg");
+}
+
+.table {
+    padding: 20px;
+    border: 10px;
+    border-style: groove;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 20px;
+}
+
+.panel-body {
+    margin-bottom: 80px;
+}
