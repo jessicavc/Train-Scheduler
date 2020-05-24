@@ -5,11 +5,16 @@
 }
 
 body {
-    background-image: url("assets/images/underground.jpg");
+    background: url("../images/underground.jpg");
 }
 
+.container {
+    background-color: white;
+
+}
+
+
 .table {
-    padding: 20px;
     border: 10px;
     border-style: groove;
 
@@ -24,5 +29,5 @@ body {
 }
 
 .panel-body {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
