@@ -12,7 +12,6 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-var queryURL = "http://api.bart.gov/api/route.aspx?cmd=routeinfo&route=6&key=ZZRM-56YJ-9QNT-DWEI&json=y";
 
 // A variable to reference the database.
 var database = firebase.database();
@@ -22,11 +21,6 @@ var name;
 var destination;
 var firstTrain;
 var frequency = 0;
-
-$.ajax({
-    url: queryURL,
-    type: "GET",
-})
 
 $("#add-train").on("click", function () {
     event.preventDefault();
